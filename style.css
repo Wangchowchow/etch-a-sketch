@@ -1,0 +1,43 @@
+body{
+    background-color: aquamarine;
+    margin-top: -20px;
+}
+button{
+    font-size: 20px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    gap: 10px;
+}
+#title{
+    font-size: 48px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+#sizeValue{
+    display: flex;
+    justify-content: center;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(16,1fr);
+    grid-template-rows: repeat(16,1fr);
+    background-color: gray;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+.cell{
+    background-color: white;
+    border: 1px solid black;
+}
