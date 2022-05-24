@@ -1,5 +1,5 @@
 # Etch-A-Sketch
-This is a web page of a simple etch-a-sketch application.
+This is a website for drawing game.
 ## Created With
 * HTML
 * CSS
